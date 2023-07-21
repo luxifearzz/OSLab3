@@ -11,6 +11,6 @@ int main() {
 		printf("enter number: ");
 		scanf("%d", &num);
 	}
-	printf("summation: %d, average: %f\n", sum, (1.0*sum)/cnt);
+	printf("summation: %d, average: %f\n", sum, (float)sum/cnt);
 	return 0;
 }
